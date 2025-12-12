@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Models (too large for Git)
+models/
+models_sentiment_yelp/
+*.pkl
+*.bin
+*.safetensors
+*.joblib
+
+# Fichiers temporaires
+uploads/
+results/
+*.csv
+*.xlsx
+*.xls
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI
+.pytest_cache/
+
